@@ -1,0 +1,308 @@
+body{
+
+	font-family: 'Roboto', sans-serif;
+	background-color: #c5f4ff;
+}
+
+
+.container-fluid{
+	margin:0;
+	padding: 5% 9%;
+	background-color: #c5f4ff;
+}
+
+a, a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+/************************* NAVBAR SECTION *****************************/
+
+#navbar-fixed .navicons{
+	padding: 0;
+	margin: 0 .2rem 0 0;
+}
+
+.navbar{
+	background-color: #80ffdb;
+	padding-top: 0;
+}
+
+.navbar-brand{
+	font-family: 'Bodoni Moda', serif;
+	font-size: 3rem;
+	padding-right: 1.5rem;
+}
+
+#logo{
+	width: 5%;
+}
+
+
+.nav-char{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: black;
+	padding: 0;
+	margin: 1.5rem .3rem .5rem .3rem;
+}
+
+
+#navbar-fixed{
+	padding: 1rem 5%;
+}
+
+.navbar-nav{
+	margin-right: auto;
+}
+
+
+/*SOCIAL*/
+
+.social{
+	margin: 1rem .8rem 0 .8rem;
+	display: inline-block;
+	color: black;
+}
+
+.social:hover{
+	color: blue;
+}
+
+/******************** PRODUCT INFO ********************/
+
+/*LANDING SECTION*/
+
+.product-info{
+	margin: 5% auto;
+}
+
+.carousel-inner{
+	border-radius: 1rem;
+}
+
+hr{
+	margin: 2rem 0
+}
+
+.button-share{
+	margin-right: .2rem;
+}
+
+.category-text, .category-head{
+	margin-left: 1rem;
+}
+
+/** DESCIPTION SECTION **/
+
+#product-desc .container-fluid{
+	background-color: #e9fbf9;
+	padding: 3% 11%;
+}
+
+#product-desc h3{
+	color: green;
+	font-weight: 500;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: underline;
+	margin-bottom: 1.5rem;
+}
+
+#product-desc ul, #product-desc th{
+	font-size: 1.07rem;
+}
+
+#product-desc p{
+	font-size: 1.07rem;
+	margin-bottom: 0;
+}
+
+
+/************************ Contact us section **********************/
+
+#contact-us .container-fluid{
+	padding: 5% 7%;
+	background-color: #adeecf;
+}
+
+
+.contact-us-heading{
+	font-family: 'Bodoni Moda', serif;
+	font-size: 2rem;
+	text-align: left;
+	letter-spacing: .1rem;
+	font-weight: 400;
+	padding-bottom: 1rem;
+}
+
+/**************** newsletter form **************/
+
+.newsletter {
+    background-color: #adeecf;
+    padding: 0 0 1rem 0;
+    color: rgb(50,50,50);
+}
+.newsletter h2, .newsletter p{
+    text-align: center;
+    line-height: 34px;
+    letter-spacing: .1rem;
+    word-spacing: .2rem;
+}
+.newsletter-box {
+    margin: 20px auto;
+    display: table;
+}
+.newsletter-box i {
+    background: #f7f7f7;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: #9c27b0;
+    border-right: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 42px;
+}
+.newsletter .newsletter-box button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #80ffdb;
+    color: #000;
+    padding: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-left: 0px;
+    height: 42px;
+    margin-top: 5px;
+}
+.emailbox{
+    border: none;
+    outline: none;
+}
+.emailbox {
+    width: 0px;
+    height: 42px;
+    transition: 0.6s;
+    font-size: 16px;
+}
+.newsletter-box:hover > .emailbox, .emailbox:focus{
+    width: 280px;
+    padding: 0 10px;
+}
+
+
+/*contact info*/
+
+.contact-info{
+	font-family: "Montserrat" , sans-serif;
+	font-size: 1.3rem;
+}
+
+
+/********************************* footer section *****************************/
+
+#footer{
+	text-align: center;
+	background-color: #e3ffee;
+	padding: 5% 7% 3% 7%;
+}
+
+#footer .social{
+	margin-bottom: 2.5rem;
+	font-size: 1.4rem;
+}
+
+#footer p{
+	word-spacing: .2rem;
+}
+
+#footer h3{
+	font-family: "Montserrat" , sans-serif;
+	font-style: italic;
+	letter-spacing: .1rem;
+	margin-bottom: 1rem;
+	font-weight: lighter;
+	font-size: 1.3rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  /*********** navbar section **********/
+
+	.navbar-brand{
+		font-size: 2rem;
+	}
+
+	#logo{
+		width: 11%;
+	}
+
+
+	.navbar-nav{
+		margin-right: 0;
+	}
+
+	#landing-section .container-fluid{
+		padding: 5% 7%;
+	}
+
+
+	/***************  Product Secion  **************/
+
+	.product-info-img{
+		padding-bottom: 2rem;
+	}
+
+	.product-info h1{
+		font-size: 2rem;
+	}
+
+	.desc-med-name{
+		font-size: 1.5rem;
+	}
+
+	.product-social .btn{
+		margin-bottom: 1rem;
+		margin-right: .5rem;
+	}
+
+
+	/********  Contact us Section  ********/
+
+	#contact-us .container-fluid{
+		padding: 7% 3%;
+	}
+
+	.click-here h2{
+		font-size: 1.2rem;
+	}
+
+
+	/******** newsletter section  *******/
+
+	.newsletter h2{
+		font-size: 1.5rem;
+	}
+
+	.newsletter p{
+		letter-spacing: 0;
+		line-height: 1.5rem;
+	}
+
+
+	/******** get in touch  ********/
+
+	.contact-us-heading{
+		font-size: 1.5rem;
+	}
+
+	.contact-info{
+		font-size: 1rem;
+	}
+}

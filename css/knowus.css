@@ -1,0 +1,434 @@
+/*google fonts
+
+    font-family: 'Bodoni Moda', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    */
+
+/************************************************** NAVBAR *************************************************/
+
+#navbar-fixed .navicons{
+	padding: 0;
+	margin: 0 .2rem 0 0;
+}
+
+.navbar{
+	background-color: #80ffdb;
+	padding-top: 0;
+}
+
+#logo{
+	width: 5%;
+}
+
+.navbar-brand{
+	font-family: 'Bodoni Moda', serif;
+	font-size: 3rem;
+	padding-right: 1.5rem;
+}
+
+
+.nav-char{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: black;
+	padding: 0;
+	margin: 1.5rem .3rem .5rem .3rem;
+}
+
+
+#navbar-fixed{
+	padding: 1rem 5%;
+}
+
+.navbar-nav{
+	margin-right: auto;
+}
+
+
+/*SOCIAL*/
+
+.social{
+	margin: 1rem .8rem 0 .8rem;
+	display: inline-block;
+	color: black;
+}
+
+.social:hover{
+	color: blue;
+}
+
+
+/*************************************************************************************************************/
+
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+	background-color: #adeecf;
+}
+
+
+/******************************************** TITLE SECTION ******************************************/
+
+.container-fluid{
+	margin:0;
+	padding: 2% 7%;
+	background-image: url("https://images.wallpaperscraft.com/image/sand_black_beach_130680_3840x2400.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: rgb(240,240,240);
+}
+
+#founder .container-fluid{
+	margin:0;
+	padding: 2% 25%;
+	padding-left: 5%;
+}
+
+#banner .container-fluid{
+	margin:0;
+	padding: 2% 25%;
+	padding-left: 5%;
+}
+
+
+#legacy .container-fluid{
+	margin:0;
+	padding: 2% 25%;
+	padding-right: 5%;
+}
+
+
+#vision .container-fluid{
+	margin:0;
+	padding: 2% 25%;
+	padding-left: 5%;
+}
+
+
+#mission .container-fluid{
+	margin:0;
+	padding: 2% 25%;
+	padding-right: 5%;
+}
+/*********************** BIG HEADING ****************************/
+
+.big-heading{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	padding-top: 2rem;
+	padding-left: 5%;
+	line-height: 1.3;
+}
+
+
+.big-heading-author{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	padding-left: 7%;
+}
+
+
+.big-heading-para{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	padding-left: 7%;
+	letter-spacing: .05rem;
+	word-spacing: .3rem;
+	line-height: 1.5;
+}
+
+.landing-txt-img{
+	background-color: rgba(200,200,200,.4);
+	padding: 2rem 1rem;
+	padding-right: 5%;
+	border-radius: 2rem;
+	border: .1rem solid black;
+}
+
+
+.founder-txt-img {
+	background-color: rgba(200,200,200,.4);
+	padding: 3rem 1rem;
+	padding-right: 5%;
+	border-radius: 2rem;
+	border: .1rem solid black;
+}
+
+
+.legacy-txt-img{
+	background-color: rgba(200,200,200,.4);
+	padding: 3rem 1rem;
+	padding-right: 5%;
+	border-radius: 2rem;
+	border: .1rem solid black;
+}
+
+
+.vision-txt-img{
+	background-color: rgba(200,200,200,.4);
+	padding: 3rem 1rem;
+	padding-right: 5%;
+	border-radius: 2rem;
+	border: .1rem solid black;
+}
+
+.mission-txt-img{
+	background-color: rgba(200,200,200,.4);
+	padding: 3rem 1rem;
+	padding-right: 5%;
+	border-radius: 2rem;
+	border: .1rem solid black;
+}
+
+/************************** TITLE_IMG *******************************/
+
+.title-img{
+	width: 90%;
+	border-radius: 3rem;
+	margin-left: 2rem;
+}
+
+.legacy-img{
+	width: 90%;
+	border-radius: 100%;
+	margin-left: 2rem;
+}
+
+
+.founder-img{
+	width: 90%;
+	border-radius: 100%;
+	margin-left: 2rem;
+}
+
+
+.vision-img{
+	width: 90%;
+	border-radius: 2rem;
+	margin-left: 2rem;
+}
+
+.mission-img{
+	width: 100%;
+	border-radius: 2rem;
+	margin-right: 2rem;
+	margin-top: 2rem;
+}
+/************************ Contact us section **********************/
+
+#contact-us .container-fluid{
+	padding: 5% 7%;
+	background-color: #adeecf;
+	background-image: none;
+	color: #000;
+}
+
+
+.contact-us-heading{
+	font-family: 'Bodoni Moda', serif;
+	font-size: 2rem;
+	text-align: left;
+	letter-spacing: .1rem;
+	font-weight: 400;
+	padding-bottom: 1rem;
+}
+
+/**************** newsletter form **************/
+
+.newsletter {
+    background-color: #adeecf;
+    padding: 0 0 1rem 0;
+    color: rgb(50,50,50);
+}
+.newsletter h2, .newsletter p{
+    text-align: center;
+    line-height: 34px;
+    letter-spacing: .1rem;
+    word-spacing: .2rem;
+}
+.newsletter-box {
+    margin: 20px auto;
+    display: table;
+}
+.newsletter-box i {
+    background: #f7f7f7;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: #9c27b0;
+    border-right: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 42px;
+}
+.newsletter .newsletter-box button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #80ffdb;
+    color: #000;
+    padding: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-left: 0px;
+    height: 42px;
+    margin-top: 5px;
+}
+.emailbox{
+    border: none;
+    outline: none;
+}
+.emailbox {
+    width: 0px;
+    height: 42px;
+    transition: 0.6s;
+    font-size: 16px;
+}
+.newsletter-box:hover > .emailbox, .emailbox:focus{
+    width: 240px;
+    padding: 0 10px;
+}
+
+
+/*contact info*/
+
+.contact-info{
+	font-family: "Montserrat" , sans-serif;
+	font-size: 1.3rem;
+}
+
+
+/********************************* footer section *****************************/
+
+#footer{
+	text-align: center;
+	background-color: #e3ffee;
+	padding: 5% 7% 3% 7%;
+}
+
+#footer .social{
+	margin-bottom: 2.5rem;
+	font-size: 1.4rem;
+}
+
+#footer p{
+	word-spacing: .2rem;
+}
+
+#footer h3{
+	font-family: "Montserrat" , sans-serif;
+	font-style: italic;
+	letter-spacing: .1rem;
+	margin-bottom: 1rem;
+	font-weight: lighter;
+	font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+	/*********** navbar section **********/
+
+	#logo{
+		width: 11%;
+	}
+
+	.navbar-brand{
+		font-size: 2rem;
+	}
+
+	.navbar-nav{
+		margin-right: 0;
+	}
+
+	#landing-section .container-fluid{
+		padding: 5% 7%;
+	}
+
+
+	/*************** Containers ******************/
+
+	#mission .container-fluid, #vision .container-fluid, #legacy .container-fluid, #banner .container-fluid, #founder .container-fluid{
+		padding: 3% 5%;
+	}
+
+
+	.landing-txt-img{
+		padding: 2rem .5rem;
+		margin-bottom: 0;
+	}
+
+	.big-heading{
+		font-size: 2rem;
+		padding-left: 0;
+		padding-top: 2rem;
+	}
+
+	.big-heading-author{
+		font-size: 1rem;
+		padding: 0 0 1rem 0;
+	}
+
+	.title-img{
+		width: 90%;
+		border-radius: 1.7rem;
+		margin-left: 1.2rem;
+
+	}
+
+
+
+	/********  Contact us Section  ********/
+
+	#contact-us .container-fluid{
+		padding: 7% 3%;
+	}
+
+	.click-here h2{
+		font-size: 1.2rem;
+	}
+
+
+	/******** newsletter section  *******/
+
+	.newsletter h2{
+		font-size: 1.5rem;
+	}
+
+	.newsletter p{
+		letter-spacing: 0;
+		line-height: 1.5rem;
+	}
+
+
+	/******** get in touch  ********/
+
+	.contact-us-heading{
+		font-size: 1.5rem;
+	}
+
+	.contact-info{
+		font-size: 1rem;
+	}
+
+}
