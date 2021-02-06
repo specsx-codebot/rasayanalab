@@ -102,7 +102,7 @@ a, a:hover{
 .card{
 	background-color: #c3f0db;
 	padding: .2rem;
-	margin: .3rem;
+	margin: .5rem 1rem;
 	border: .1rem dotted #c3f0db;
 	border-radius: 1rem;
 }
@@ -119,7 +119,13 @@ a, a:hover{
 	border: .3rem solid white;
 }
 
+.mob-pro img{
+	width: 11rem;
+}
 
+.mob-pro .card-text{
+	margin-left: 2rem;
+}
 
 
 
@@ -259,6 +265,15 @@ a, a:hover{
 
 
 	/********************  Product Section  *******************/
+
+	.f-products{
+		width: 7.5rem;
+		margin: 1rem auto;
+	}
+
+	.mob-pro img{
+		width: 8.3rem;
+	}
 
 	#products .container-fluid{
 		padding: 5% 7% 7% 7%;
