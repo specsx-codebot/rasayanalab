@@ -79,6 +79,10 @@ a, a:hover{
 	margin: 5% auto;
 }
 
+.product-info-img{
+	padding: 2rem 4rem;
+}
+
 .carousel-inner{
 	border-radius: 1rem;
 }
@@ -256,7 +260,7 @@ hr{
 	/***************  Product Secion  **************/
 
 	.product-info-img{
-		padding-bottom: 2rem;
+		padding: 3rem 5rem;
 	}
 
 	.product-info h1{
