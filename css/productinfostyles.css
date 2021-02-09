@@ -26,7 +26,7 @@ a, a:hover{
 }
 
 .navbar{
-	background-color: #daffff;
+	background-color: #fff;
 	padding-top: 0;
 }
 
@@ -123,8 +123,8 @@ hr{
 	margin-bottom: 0;
 }
 
-.product-social{
-	text-align: center;
+.product-social .btn{
+	margin-right: 1rem;
 }
 
 
@@ -237,6 +237,10 @@ hr{
 	.product-social .btn{
 		margin-bottom: 1rem;
 		margin-right: .7rem;
+	}
+
+	.product-social{
+		text-align: center;
 	}
 
 
