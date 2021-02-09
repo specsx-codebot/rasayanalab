@@ -1,14 +1,14 @@
 body{
 
 	font-family: 'Roboto', sans-serif;
-	background-color: #c5f4ff;
+	background-color: #daffff;
 }
 
 
 .container-fluid{
 	margin:0;
 	padding: 5% 9%;
-	background-color: #c5f4ff;
+	background-color: #daffff;
 }
 
 a, a:hover{
@@ -26,7 +26,7 @@ a, a:hover{
 }
 
 .navbar{
-	background-color: #80ffdb;
+	background-color: #daffff;
 	padding-top: 0;
 }
 
@@ -37,7 +37,7 @@ a, a:hover{
 }
 
 #logo{
-	width: 5%;
+	width: 6%;
 }
 
 
@@ -92,7 +92,7 @@ hr{
 }
 
 .button-share{
-	margin-right: .2rem;
+	font-size: 1.5rem;
 }
 
 .category-text, .category-head{
@@ -123,12 +123,27 @@ hr{
 	margin-bottom: 0;
 }
 
+.product-social{
+	text-align: center;
+}
+
 
 /************************ Contact us section **********************/
 
+
 #contact-us .container-fluid{
-	padding: 5% 7%;
+	padding: 3% 7%;
 	background-color: #adeecf;
+}
+
+
+#contact-us-head{
+	font-family: "Montserrat",sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 2rem;
+	text-align: center;
+	padding-bottom: 2rem;
 }
 
 
@@ -141,62 +156,6 @@ hr{
 	padding-bottom: 1rem;
 }
 
-/**************** newsletter form **************/
-
-.newsletter {
-    background-color: #adeecf;
-    padding: 0 0 1rem 0;
-    color: rgb(50,50,50);
-}
-.newsletter h2, .newsletter p{
-    text-align: center;
-    line-height: 34px;
-    letter-spacing: .1rem;
-    word-spacing: .2rem;
-}
-.newsletter-box {
-    margin: 20px auto;
-    display: table;
-}
-.newsletter-box i {
-    background: #f7f7f7;
-    width: 60px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 40px;
-    color: #9c27b0;
-    border-right: 1px solid #ddd;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    height: 42px;
-}
-.newsletter .newsletter-box button {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background: #80ffdb;
-    color: #000;
-    padding: 0 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 2px solid #000;
-    border-left: 0px;
-    height: 42px;
-    margin-top: 5px;
-}
-.emailbox{
-    border: none;
-    outline: none;
-}
-.emailbox {
-    width: 0px;
-    height: 42px;
-    transition: 0.6s;
-    font-size: 16px;
-}
-.newsletter-box:hover > .emailbox, .emailbox:focus{
-    width: 280px;
-    padding: 0 10px;
-}
 
 
 /*contact info*/
@@ -244,7 +203,7 @@ hr{
 	}
 
 	#logo{
-		width: 11%;
+		width: 13%;
 	}
 
 
@@ -258,6 +217,10 @@ hr{
 
 
 	/***************  Product Secion  **************/
+
+	#product-landing .container-fluid{
+		padding: 5% 7%;
+	}
 
 	.product-info-img{
 		padding: 1.5rem 4rem;
@@ -273,7 +236,7 @@ hr{
 
 	.product-social .btn{
 		margin-bottom: 1rem;
-		margin-right: .5rem;
+		margin-right: .7rem;
 	}
 
 
@@ -301,6 +264,10 @@ hr{
 
 
 	/******** get in touch  ********/
+
+	#contact-us-head{
+		font-size: 1.5rem;
+	}
 
 	.contact-us-heading{
 		font-size: 1.5rem;
