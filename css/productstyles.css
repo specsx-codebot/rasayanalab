@@ -218,6 +218,10 @@ a, a:hover{
 
 	/********************  Product Section  *******************/
 
+	.card-body{
+		font-size: 1rem;
+	}
+
 	.f-products{
 		width: 7.5rem;
 		margin: 1rem auto;
@@ -225,6 +229,10 @@ a, a:hover{
 
 	.mob-pro img{
 		width: 8.3rem;
+	}
+
+	.mob-pro .card-text{
+		margin-left: 1rem;
 	}
 
 	#products .container-fluid{
