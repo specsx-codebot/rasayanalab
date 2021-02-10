@@ -77,7 +77,7 @@ body{
 .container-fluid{
 	margin:0;
 	padding: 2% 7%;
-	background-image: url("https://images.wallpaperscraft.com/image/sand_black_beach_130680_1280x960.jpg");
+	background-image: url(../images/background.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
