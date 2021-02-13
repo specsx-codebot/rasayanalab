@@ -17,7 +17,7 @@ a, a:hover{
 	text-decoration: none;
 }
 
-/************************** NAVBAR SECTION *****************************/
+/************************** NAVBAR SECTION ****************************/
 
 #navbar-fixed .navicons{
 	padding: 0;
@@ -113,18 +113,11 @@ a, a:hover{
 	font-weight: 500;
 	padding: 0;
 	font-family: "Montserrat", sans-serif;
+	text-align: center;
 }
 
 .card:hover{
 	border: .3rem solid white;
-}
-
-.mob-pro img{
-	width: 11rem;
-}
-
-.mob-pro .card-text{
-	margin-left: 2rem;
 }
 
 
@@ -220,19 +213,12 @@ a, a:hover{
 
 	.card-body{
 		font-size: 1rem;
+		text-align: center;
 	}
 
 	.f-products{
 		width: 7.5rem;
 		margin: 1rem auto;
-	}
-
-	.mob-pro img{
-		width: 8.3rem;
-	}
-
-	.mob-pro .card-text{
-		margin-left: 1rem;
 	}
 
 	#products .container-fluid{
