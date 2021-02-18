@@ -306,11 +306,11 @@ body{
 	}
 
 	.navbar-brand{
-		font-size: 2rem;
+		font-size: 1.9rem;
 	}
 
 	.navbar-nav{
-		margin-right: 0;
+		margin: 0;
 	}
 
 	#landing-section .container-fluid{

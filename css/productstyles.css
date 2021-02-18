@@ -197,11 +197,11 @@ a, a:hover{
 	}
 
 	.navbar-brand{
-		font-size: 2rem;
+		font-size: 1.9rem;
 	}
 
 	.navbar-nav{
-		margin-right: 0;
+		margin: 0;
 	}
 
 	#landing-section .container-fluid{
@@ -212,7 +212,7 @@ a, a:hover{
 	/********************  Product Section  *******************/
 
 	.card-body{
-		font-size: 1rem;
+		font-size: 1.1rem;
 		text-align: center;
 	}
 
@@ -243,10 +243,6 @@ a, a:hover{
 
 	#contact-us .container-fluid{
 		padding: 7% 3%;
-	}
-
-	.click-here h2{
-		font-size: 1.2rem;
 	}
 
 
