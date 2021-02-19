@@ -1,0 +1,283 @@
+body{
+
+	font-family: 'Roboto', sans-serif;
+	background-color: #daffff;
+}
+
+
+.container-fluid{
+	margin:0;
+	padding: 5% 9%;
+	background-color: #daffff;
+}
+
+a, a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+/************************* NAVBAR SECTION *****************************/
+
+#navbar-fixed .navicons{
+	padding: 0;
+	margin: 0 .2rem 0 0;
+}
+
+.navbar{
+	background-color: #fff;
+	padding-top: 0;
+}
+
+.navbar-brand{
+	font-family: 'Bodoni Moda', serif;
+	font-size: 3rem;
+	padding-right: 1.5rem;
+}
+
+#logo{
+	width: 6%;
+}
+
+
+.nav-char{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: black;
+	padding: 0;
+	margin: 1.5rem .3rem .5rem .3rem;
+}
+
+
+#navbar-fixed{
+	padding: 1rem 5%;
+}
+
+.navbar-nav{
+	margin-right: auto;
+}
+
+
+/*SOCIAL*/
+
+.social{
+	margin: 1rem .8rem 0 .8rem;
+	display: inline-block;
+	color: black;
+}
+
+.social:hover{
+	color: blue;
+}
+
+/******************** PRODUCT INFO ********************/
+
+/*LANDING SECTION*/
+
+.product-info{
+	margin: 5% auto;
+}
+
+.product-info-img{
+	padding: 2rem 4rem;
+}
+
+.carousel-inner{
+	border-radius: 1rem;
+}
+
+hr{
+	margin: 2rem 0
+}
+
+.button-share{
+	font-size: 1.5rem;
+}
+
+.category-text, .category-head{
+	margin-left: 1rem;
+}
+
+/** DESCIPTION SECTION **/
+
+#product-desc .container-fluid{
+	background-color: #e9fbf9;
+	padding: 3% 11%;
+}
+
+#product-desc h3{
+	color: green;
+	font-weight: 500;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: underline;
+	margin-bottom: 1.5rem;
+}
+
+#product-desc ul, #product-desc th{
+	font-size: 1.07rem;
+}
+
+#product-desc p{
+	font-size: 1.07rem;
+	margin-bottom: 0;
+}
+
+.product-social .btn{
+	margin-right: 1rem;
+}
+
+
+/************************ Contact us section **********************/
+
+
+#contact-us .container-fluid{
+	padding: 3% 7%;
+	background-color: #adeecf;
+}
+
+
+#contact-us-head{
+	font-family: "Montserrat",sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 2rem;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+
+.contact-us-heading{
+	font-family: 'Bodoni Moda', serif;
+	font-size: 2rem;
+	text-align: left;
+	letter-spacing: .1rem;
+	font-weight: 400;
+	padding-bottom: 1rem;
+}
+
+
+
+/*contact info*/
+
+.contact-info{
+	font-family: "Montserrat" , sans-serif;
+	font-size: 1.3rem;
+}
+
+
+/********************************* footer section *****************************/
+
+#footer{
+	text-align: center;
+	background-color: #e3ffee;
+	padding: 5% 7% 3% 7%;
+}
+
+#footer .social{
+	margin-bottom: 2.5rem;
+	font-size: 1.4rem;
+}
+
+#footer p{
+	word-spacing: .2rem;
+}
+
+#footer h3{
+	font-family: "Montserrat" , sans-serif;
+	font-style: italic;
+	letter-spacing: .1rem;
+	margin-bottom: 1rem;
+	font-weight: lighter;
+	font-size: 1.3rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  /*********** navbar section **********/
+
+	.navbar-brand{
+		font-size: 1.9rem;
+	}
+
+	#logo{
+		width: 12%;
+	}
+
+
+	.navbar-nav{
+		margin: 0;
+	}
+
+	#landing-section .container-fluid{
+		padding: 5% 7%;
+	}
+
+
+	/***************  Product Secion  **************/
+
+	#product-landing .container-fluid{
+		padding: 5% 7%;
+	}
+
+	.product-info-img{
+		padding: 1.5rem 4rem;
+	}
+
+	.product-info h1{
+		font-size: 2rem;
+	}
+
+	.desc-med-name{
+		font-size: 1.5rem;
+	}
+
+	.product-social .btn{
+		margin-bottom: 1rem;
+		margin-right: .7rem;
+	}
+
+	.product-social{
+		text-align: center;
+	}
+
+
+	/********  Contact us Section  ********/
+
+	#contact-us .container-fluid{
+		padding: 7% 3%;
+	}
+
+	.click-here h2{
+		font-size: 1.2rem;
+	}
+
+
+	/******** newsletter section  *******/
+
+	.newsletter h2{
+		font-size: 1.5rem;
+	}
+
+	.newsletter p{
+		letter-spacing: 0;
+		line-height: 1.5rem;
+	}
+
+
+	/******** get in touch  ********/
+
+	#contact-us-head{
+		font-size: 1.5rem;
+	}
+
+	.contact-us-heading{
+		font-size: 1.5rem;
+	}
+
+	.contact-info{
+		font-size: 1rem;
+	}
+}
