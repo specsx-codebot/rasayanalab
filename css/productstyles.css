@@ -17,6 +17,11 @@ a, a:hover{
 	text-decoration: none;
 }
 
+#products h2{
+	font-family: "Montserrat", sans-serif;
+	color: black;
+}
+
 /************************** NAVBAR SECTION ****************************/
 
 #navbar-fixed .navicons{
